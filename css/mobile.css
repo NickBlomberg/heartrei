@@ -23,7 +23,8 @@
         font-size: 0.8rem;
     }
 
-    #services .container {
+    /* These sections look cleaner without padding on mobile */
+    #services .container , #contact .container{
         padding: 0;
     }
 
@@ -47,7 +48,7 @@
 
     .container {
         min-width: 300px;
-        max-width: 500px;
+        max-width: 100%;
     }
 
     .l-heading {
