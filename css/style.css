@@ -44,6 +44,10 @@ ul {
 
 /* NAVIGATION BAR */
 nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
     min-width: 100%;
     display: flex;
     justify-content: space-between;
