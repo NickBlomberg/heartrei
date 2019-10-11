@@ -1,0 +1,63 @@
+@media screen and (max-width: 500px) {
+    body {
+        line-height: 2rem;
+    }
+
+    section {
+        margin-bottom: 1.1rem;
+    }
+    nav {
+        flex-direction: column;
+        min-height: 13rem;
+        font-size: 1.5rem;
+    }
+    nav #brand {
+        flex-direction: column;
+    }
+
+    nav #brand h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li a {
+        font-size: 0.8rem;
+    }
+
+    #services .container {
+        padding: 0;
+    }
+
+    .service-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        max-width: 100%;
+        margin-bottom: 1.5rem;;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-box {
+        text-align: center;
+    }
+
+    .container {
+        min-width: 300px;
+        max-width: 500px;
+    }
+
+    .l-heading {
+        font-size: 2.3rem;
+        padding: 0.75rem 0;
+    }
+
+    .s-heading {
+        font-size: 1rem;
+        text-align: center;
+        padding: 0.75rem 0;
+    }
+}

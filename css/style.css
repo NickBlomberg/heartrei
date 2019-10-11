@@ -14,6 +14,10 @@
     scroll-behavior: smooth;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     font-size: var(--root-font-size);
     font-family: Arial, Helvetica, sans-serif;
@@ -44,6 +48,7 @@ ul {
 
 /* NAVIGATION BAR */
 nav {
+    min-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,7 +70,7 @@ nav #brand img {
 nav #brand h1 {
     font-family: Courgette, sans-serif;
     font-size: 2rem;
-    padding: 0 0.75rem;
+    padding: 0.75rem 0.75rem;
     color: var(--dark-color);
 }
 
@@ -154,6 +159,10 @@ section#contact .container {
     align-items: center;
 }
 
+section#contact .container p {
+    text-align: center;
+}
+
 form {
     display: flex;
     min-width: 100%;
@@ -196,8 +205,9 @@ footer {
     justify-content: space-evenly;
 }
 
-#footer-contact {
+.footer-box {
     font-size: 1rem;
+    padding: 1rem;
 }
 
 #footer-certifications img {
@@ -216,7 +226,7 @@ footer #footer-copyright {
 .container {
     max-width: 960px;
     margin: 0 auto;
-    /* padding: 1.5rem 0; */
+    padding: 0 1rem;
 }
 
 .l-heading {
