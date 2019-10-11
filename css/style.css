@@ -13,12 +13,11 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-*[id]:before { 
+.jump-target:before { 
     display: block; 
     content: ""; 
     margin-top: calc(-1 * var(--navbar-height));
     height: var(--navbar-height);
-    visibility: hidden; 
 }
 
 body {
