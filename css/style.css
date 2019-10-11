@@ -120,6 +120,8 @@ nav ul li a:hover {
 .box {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    align-items: center;
     max-width: 48%;
     background: #f3f3f3;
 }
@@ -134,10 +136,15 @@ nav ul li a:hover {
     flex-direction: column;
     text-align: center;
     padding: 1.5rem;
+    flex-grow: 1;
 }
 
 .service-text .price {
     font-weight: bolder;
+}
+
+.service-group a.btn, .service-group .price {
+    justify-self: flex-end;
 }
 
 #reiki-service .service-image {
