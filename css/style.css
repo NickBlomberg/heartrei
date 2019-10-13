@@ -150,10 +150,6 @@ nav ul li a:hover {
     flex-grow: 1;
 }
 
-.service-text .price {
-    font-weight: bolder;
-}
-
 .service-group a.btn, .service-group .price {
     justify-self: flex-end;
 }
