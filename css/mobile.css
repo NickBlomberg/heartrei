@@ -1,4 +1,11 @@
 @media screen and (max-width: 500px) {
+    .jump-target:before { 
+        display: block; 
+        content: ""; 
+        margin-top: calc(-1 * var(--mobile-navbar-height));
+        height: var(--mobile-navbar-height);
+    }
+
     body {
         line-height: 2rem;
     }
@@ -6,21 +13,31 @@
     section {
         margin-bottom: 1.1rem;
     }
+
     nav {
-        flex-direction: column;
-        min-height: 13rem;
-        font-size: 1.5rem;
+        min-height: var(--mobile-navbar-height);
+        padding: 0.5rem;
     }
+
     nav #brand {
-        flex-direction: column;
+        align-self: flex-start;
     }
 
     nav #brand h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    nav #brand img {
+        max-width: 3rem;
+        max-height: 3rem;
     }
 
     nav ul li a {
         font-size: 0.8rem;
+    }
+
+    #showcase {
+        height: calc(100vh - var(--mobile-navbar-height));
     }
 
     /* These sections look cleaner without padding on mobile */

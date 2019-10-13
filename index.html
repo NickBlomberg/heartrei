@@ -8,6 +8,7 @@
     <title>HeartRei Therapies | Holistic well-being based in Llanelli</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <meta name="description"
         content="HeartRei Therapies is a Llanelli based holistic therapy service, providing support for the Carmarthenshire area. We currently offer integrative counselling and Reiki healing, tailored to the individual's requirements.">
@@ -23,12 +24,27 @@
                 alt="HeartRei Therapies logo">
             <h1>HeartRei Therapies</h1>
         </div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#home" onclick="close_menu()">Home</a>
+                </li>
+                <li>
+                    <a href="#introduction"
+                        onclick="close_menu()">Introduction</a>
+                </li>
+                <li>
+                    <a href="#services" onclick="close_menu()">Services</a>
+                </li>
+                <li>
+                    <a href="#contact" onclick="close_menu()">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <!-- SHOWCASE -->
@@ -171,5 +187,11 @@
         </div>
     </footer>
 </body>
+
+<script>
+    function close_menu() {
+        document.getElementsByClassName('toggler')[0].checked = false;
+    }
+</script>
 
 </html>
