@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <script src="./js/modernizr-custom.js"></script>
     <meta name="description"
         content="HeartRei Therapies is a Llanelli based holistic therapy service, providing support for the Carmarthenshire area. We currently offer integrative counselling and Reiki healing, tailored to the individual's requirements.">
     <meta name="keywords"
@@ -20,8 +21,14 @@
     <!-- NAVIGATION BAR -->
     <nav id="navbar">
         <div id="brand">
-            <img src="./img/heartrei-logo-optimized.png"
-                alt="HeartRei Therapies logo">
+            <picture>
+                <source srcset="./img/heartrei-logo-optimized.webp"
+                    type="image/webp">
+                <source srcset="./img/heartrei-logo-optimized.png"
+                    type="image/png">
+                <img src="./img/heartrei-logo-optimized.png"
+                    alt="HeartRei Therapies logo">
+            </picture>
             <h1>HeartRei Therapies</h1>
         </div>
         <input type="checkbox" class="toggler">
@@ -179,8 +186,23 @@
         </div>
         <div id="footer-certifications" class="footer-box">
             <h3 class="s-heading">Certifications</h3>
-            <img src="./img/BACP-logo-optimized.png" alt="BACP certification">
-            <img src="./img/FHT-logo-optimized.jpg" alt="FHT certification">
+
+            <!-- BACP certification logo -->
+            <picture>
+                <source srcset="./img/BACP-logo-optimized.webp"
+                    type="image/webp">
+                <source srcset="./img/BACP-logo-optimized.png" type="image/png">
+                <img src="./img/BACP-logo-optimized.png"
+                    alt="BACP certification">
+            </picture>
+
+            <!-- FHT member logo -->
+            <picture>
+                <source srcset="./img/FHT-logo-optimized.webp"
+                    type="image/webp">
+                <source srcset="./img/FHT-logo-optimized.jpg" type="image/jpg">
+                <img src="./img/FHT-logo-optimized.jpg" alt="FHT certification">
+            </picture>
         </div>
         <div id="footer-copyright">
             <p>&copy;2019 by HeartRei Therapies.</p>

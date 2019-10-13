@@ -67,11 +67,16 @@ nav {
 nav #brand {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-nav #brand img {
+nav #brand picture img {
     max-width: 5rem;
     max-height: 5rem;
+}
+
+nav #brand picture {
+    display: flex;
 }
 
 nav #brand h1 {
@@ -99,6 +104,10 @@ nav ul li a:hover {
 }
 
 /* SHOWCASE */
+.webp #showcase {
+    background: var(--light-bg-color) url(../img/sunflower-showcase-optimized.webp) no-repeat center center/cover;
+}
+
 #showcase {
     background: var(--light-bg-color) url(../img/sunflower-showcase-optimized.jpg) no-repeat center center/cover;
     height: calc(100vh - var(--navbar-height));
@@ -154,8 +163,16 @@ nav ul li a:hover {
     justify-self: flex-end;
 }
 
+.webp #reiki-service .service-image {
+    background: #333 url(../img/service-reiki-optimized.webp) center center/cover;
+}
+
 #reiki-service .service-image {
     background: #333 url(../img/service-reiki-optimized.jpg) center center/cover;
+}
+
+.webp #counselling-service .service-image {
+    background: #333 url(../img/service-counselling-optimized.webp) center center/cover;
 }
 
 #counselling-service .service-image {
@@ -220,7 +237,7 @@ footer {
     padding: 1rem;
 }
 
-#footer-certifications img {
+#footer-certifications picture img {
     max-width: 11rem;
     padding: 1rem;
 }
