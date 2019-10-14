@@ -148,7 +148,7 @@ nav ul li a:hover {
 
 .service-image {
     min-width: 100%;
-    height: 22rem;
+    min-height: 22rem;
 }
 
 .service-text {

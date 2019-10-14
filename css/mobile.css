@@ -50,6 +50,10 @@
         align-items: center;
     }
 
+    .service-image {
+        min-height: 15rem;
+    }
+
     .box {
         max-width: 100%;
         margin-bottom: 1.5rem;;
