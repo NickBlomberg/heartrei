@@ -144,6 +144,7 @@ nav ul li a:hover {
     align-items: center;
     max-width: 48%;
     background: #f3f3f3;
+    padding-bottom: 1.3rem;
 }
 
 .service-image {
