@@ -245,8 +245,13 @@ footer {
 footer #footer-copyright {
     background: var(--light-bg-color);
     min-width: 100%;
-    text-align: center;
     margin-top: 2rem;
+}
+
+footer #footer-copyright p {
+    font-size: 0.85rem;
+    padding: 0.4rem 0;
+    text-align: center;
 }
 
 /* UTILITIES */
