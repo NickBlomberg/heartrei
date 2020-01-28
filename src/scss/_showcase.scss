@@ -9,7 +9,7 @@
 #showcase {
   background: $light-bg-color url(../../img/sunflower-showcase-optimized.jpg)
     no-repeat center center/cover;
-  height: calc(100vh - #{$navbar-height});
+  height: calc(#{$showcase-height} - #{$navbar-height});
   position: relative;
 }
 
