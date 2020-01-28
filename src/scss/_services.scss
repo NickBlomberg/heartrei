@@ -1,0 +1,53 @@
+.service-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  max-width: 48%;
+  background: #f3f3f3;
+  padding-bottom: 1.3rem;
+}
+
+.service-image {
+  min-width: 100%;
+  min-height: 22rem;
+}
+
+.service-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1.5rem;
+  flex-grow: 1;
+}
+
+.service-group a.btn,
+.service-group .price {
+  justify-self: flex-end;
+}
+
+.webp #reiki-service .service-image {
+  background: #333 url(../../img/service-reiki-optimized.webp) center
+    center/cover;
+}
+
+#reiki-service .service-image {
+  background: #333 url(../../img/service-reiki-optimized.jpg) center
+    center/cover;
+}
+
+.webp #counselling-service .service-image {
+  background: #333 url(../../img/service-counselling-optimized.webp) center
+    center/cover;
+}
+
+#counselling-service .service-image {
+  background: #333 url(../../img/service-counselling-optimized.jpg) center
+    center/cover;
+}

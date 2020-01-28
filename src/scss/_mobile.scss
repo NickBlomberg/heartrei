@@ -1,0 +1,86 @@
+@media screen and (max-width: 500px) {
+  .jump-target:before {
+    display: block;
+    content: '';
+    margin-top: calc(-1 * #{$mobile-navbar-height});
+    height: $mobile-navbar-height;
+  }
+
+  body {
+    line-height: 2rem;
+  }
+
+  section {
+    margin-bottom: 1.1rem;
+  }
+
+  nav {
+    min-height: $mobile-navbar-height;
+    padding: 0.5rem;
+  }
+
+  nav #brand {
+    align-self: flex-start;
+  }
+
+  nav #brand h1 {
+    font-size: 1.2rem;
+  }
+
+  nav #brand picture img {
+    max-width: 3rem;
+    max-height: 3rem;
+  }
+
+  nav ul li a {
+    font-size: 0.8rem;
+  }
+
+  #showcase {
+    height: calc(100vh - #{$mobile-navbar-height});
+  }
+
+  /* These sections look cleaner without padding on mobile */
+  #services .container,
+  #contact .container {
+    padding: 0;
+  }
+
+  .service-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-image {
+    min-height: 15rem;
+  }
+
+  .box {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .footer-box {
+    text-align: center;
+  }
+
+  .container {
+    min-width: 300px;
+    max-width: 100%;
+  }
+
+  .l-heading {
+    font-size: 2.3rem;
+    padding: 0.75rem 0;
+  }
+
+  .s-heading {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.75rem 0;
+  }
+}

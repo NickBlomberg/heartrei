@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.jump-target:before {
+  display: block;
+  content: '';
+  margin-top: calc(-1 * #{$navbar-height});
+  height: $navbar-height;
+}
+
+body {
+  font-size: $root-font-size;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2.2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #8dc63f;
+}
+
+a:hover {
+  color: #71a032;
+}
+
+p {
+  padding: 0.75rem 0;
+  font-size: 1.1rem;
+}
+
+ul {
+  list-style: none;
+}

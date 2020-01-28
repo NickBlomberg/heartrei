@@ -1,0 +1,30 @@
+@import '../scss/_variables.scss';
+
+/* SHOWCASE */
+.webp #showcase {
+  background: $light-bg-color url(../../img/sunflower-showcase-optimized.webp)
+    no-repeat center center/cover;
+}
+
+#showcase {
+  background: $light-bg-color url(../../img/sunflower-showcase-optimized.jpg)
+    no-repeat center center/cover;
+  height: calc(100vh - #{$navbar-height});
+  position: relative;
+}
+
+.showcase-content {
+  height: 100%;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+
+  /* Overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
