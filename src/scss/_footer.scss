@@ -13,6 +13,19 @@ footer {
     }
   }
 
+  #footer-contact #social-icons a {
+    color: $dark-color;
+
+    &:hover {
+      color: lighten($dark-color, 20%);
+    }
+  }
+
+  #footer-certifications picture img {
+    max-width: 11rem;
+    padding: 1rem;
+  }
+
   #footer-copyright {
     min-width: 100%;
     margin-top: 2rem;
@@ -24,11 +37,6 @@ footer {
       padding: 0.4rem 0;
       text-align: center;
     }
-  }
-
-  #footer-certifications picture img {
-    max-width: 11rem;
-    padding: 1rem;
   }
 }
 
