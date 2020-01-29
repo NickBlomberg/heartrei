@@ -1,5 +1,19 @@
 @import './_variables.scss';
 
+@media screen and (max-width: 768px) {
+  footer {
+    grid-template-columns: 1fr;
+
+    #footer-copyright {
+      grid-column: 1;
+    }
+
+    .footer-box {
+      text-align: center;
+    }
+  }
+}
+
 @media screen and (max-width: 500px) {
   .jump-target:before {
     display: block;
@@ -68,14 +82,6 @@
   .box {
     max-width: 100%;
     margin-bottom: 1.5rem;
-  }
-
-  footer {
-    flex-direction: column;
-  }
-
-  .footer-box {
-    text-align: center;
   }
 
   .container {

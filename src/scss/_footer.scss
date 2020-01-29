@@ -1,7 +1,7 @@
 footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
   background: $light-bg-color;
 
   #footer-links a {
@@ -17,6 +17,7 @@ footer {
     min-width: 100%;
     margin-top: 2rem;
     background: #ffffff;
+    grid-column: span 3;
 
     p {
       font-size: 0.85rem;
