@@ -2,6 +2,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  background: $light-bg-color;
 
   #footer-links a {
     color: $dark-color;
@@ -13,9 +14,9 @@ footer {
   }
 
   #footer-copyright {
-    background: $light-bg-color;
     min-width: 100%;
     margin-top: 2rem;
+    background: #ffffff;
 
     p {
       font-size: 0.85rem;
