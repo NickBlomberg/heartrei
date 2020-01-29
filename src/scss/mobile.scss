@@ -45,7 +45,7 @@
   }
 
   /* These sections look cleaner without padding on mobile */
-  #services .container,
+  #therapies .container,
   #contact .container {
     padding: 0;
 
@@ -56,12 +56,12 @@
     }
   }
 
-  .service-group {
+  .therapy-group {
     flex-direction: column;
     align-items: center;
   }
 
-  .service-image {
+  .therapy-image {
     min-height: 15rem;
   }
 

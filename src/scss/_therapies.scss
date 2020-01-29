@@ -1,4 +1,4 @@
-.service-group {
+.therapy-group {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
@@ -14,12 +14,12 @@
   padding-bottom: 1.3rem;
 }
 
-.service-image {
+.therapy-image {
   min-width: 100%;
   min-height: 22rem;
 }
 
-.service-text {
+.therapy-text {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -27,26 +27,26 @@
   flex-grow: 1;
 }
 
-.service-group a.btn {
+.therapy-group a.btn {
   justify-self: flex-end;
 }
 
-.webp #reiki-service .service-image {
+.webp #reiki-therapy .therapy-image {
   background: #333 url(../../img/service-reiki-optimized.webp) center
     center/cover;
 }
 
-#reiki-service .service-image {
+#reiki-therapy .therapy-image {
   background: #333 url(../../img/service-reiki-optimized.jpg) center
     center/cover;
 }
 
-.webp #counselling-service .service-image {
+.webp #counselling-therapy .therapy-image {
   background: #333 url(../../img/service-counselling-optimized.webp) center
     center/cover;
 }
 
-#counselling-service .service-image {
+#counselling-therapy .therapy-image {
   background: #333 url(../../img/service-counselling-optimized.jpg) center
     center/cover;
 }
