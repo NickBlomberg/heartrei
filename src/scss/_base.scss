@@ -26,11 +26,12 @@ section {
 
 a {
   text-decoration: none;
-  color: #8dc63f;
-}
+  color: $link-color;
+  font-weight: 600;
 
-a:hover {
-  color: #71a032;
+  &:hover {
+    color: darken($link-color, 10%);
+  }
 }
 
 p {
