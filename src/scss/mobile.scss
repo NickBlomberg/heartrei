@@ -1,3 +1,5 @@
+@import './_variables.scss';
+
 @media screen and (max-width: 500px) {
   .jump-target:before {
     display: block;
@@ -44,6 +46,12 @@
   #services .container,
   #contact .container {
     padding: 0;
+
+    .l-heading,
+    .m-heading,
+    .s-heading {
+      padding: 0 1rem;
+    }
   }
 
   .service-group {
@@ -74,13 +82,17 @@
   }
 
   .l-heading {
-    font-size: 2.3rem;
-    padding: 0.75rem 0;
+    font-size: 2.1rem;
+    padding: 0.75rem 0rem;
+  }
+
+  .m-heading {
+    font-size: 1.7rem;
+    padding: 0.75rem 0rem;
   }
 
   .s-heading {
-    font-size: 1rem;
-    text-align: center;
-    padding: 0.75rem 0;
+    font-size: 1.2rem;
+    padding: 0.75rem 0rem;
   }
 }
