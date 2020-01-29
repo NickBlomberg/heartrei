@@ -2,6 +2,15 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+
+  #footer-links a {
+    color: $dark-color;
+    font-weight: normal;
+
+    &:hover {
+      color: lighten($dark-color, 20%);
+    }
+  }
 }
 
 .footer-box {
