@@ -11,26 +11,26 @@ footer {
       color: lighten($dark-color, 20%);
     }
   }
+
+  #footer-copyright {
+    background: $light-bg-color;
+    min-width: 100%;
+    margin-top: 2rem;
+
+    p {
+      font-size: 0.85rem;
+      padding: 0.4rem 0;
+      text-align: center;
+    }
+  }
+
+  #footer-certifications picture img {
+    max-width: 11rem;
+    padding: 1rem;
+  }
 }
 
 .footer-box {
   font-size: 1rem;
   padding: 1rem;
-}
-
-#footer-certifications picture img {
-  max-width: 11rem;
-  padding: 1rem;
-}
-
-footer #footer-copyright {
-  background: $light-bg-color;
-  min-width: 100%;
-  margin-top: 2rem;
-}
-
-footer #footer-copyright p {
-  font-size: 0.85rem;
-  padding: 0.4rem 0;
-  text-align: center;
 }

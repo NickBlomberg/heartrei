@@ -19,23 +19,25 @@
   nav {
     min-height: $mobile-navbar-height;
     padding: 0.5rem;
-  }
 
-  nav #brand {
-    align-self: flex-start;
-  }
+    #brand {
+      align-self: flex-start;
 
-  nav #brand h1 {
-    font-size: 1.2rem;
-  }
+      h1 {
+        font-size: 1.2rem;
+      }
 
-  nav #brand picture img {
-    max-width: 3rem;
-    max-height: 3rem;
-  }
+      picture img {
+        max-width: 3rem;
+        max-height: 3rem;
+      }
+    }
 
-  nav ul li a {
-    font-size: 0.8rem;
+    li {
+      a {
+        font-size: 0.8rem;
+      }
+    }
   }
 
   #showcase {

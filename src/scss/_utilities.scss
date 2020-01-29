@@ -30,9 +30,9 @@
   cursor: pointer;
   color: $dark-color;
   line-height: inherit;
-}
 
-.btn:hover {
-  background: #e5ab00;
-  color: $dark-color;
+  &:hover {
+    background: #e5ab00;
+    color: $dark-color;
+  }
 }
