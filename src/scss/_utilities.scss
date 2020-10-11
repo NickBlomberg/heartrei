@@ -36,3 +36,11 @@
     color: $dark-color;
   }
 }
+
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #feebc8;
+  padding: 0.25rem 3rem;
+}
