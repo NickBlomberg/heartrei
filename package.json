@@ -4,7 +4,7 @@
   "description": "Website for HeartRei Therapies",
   "main": "index.html",
   "devDependencies": {
-    "acorn": "^7.1.0",
+    "acorn": "^7.1.1",
     "autoprefixer": "^9.7.4",
     "browser-sync": "^2.26.7",
     "eslint": "^6.8.0",
